@@ -6,7 +6,7 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('img/Cafe BG.jpg');
+    background-image: url('../img/Cafe BG.jpg');
     background-size: cover; /* Makes sure the image covers the entire background */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center; /* Centers the image */
