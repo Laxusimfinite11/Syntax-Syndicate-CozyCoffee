@@ -15,7 +15,8 @@ body {
 
 
 header {
-    background-color: #fff;
+    background-color: #DAA06D;
+    background-color: ;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
@@ -56,8 +57,9 @@ nav a:hover {
 }
 
 .hero h1 {
-    font-size: 36px;
+    font-size: 70px;
     margin-bottom: 20px;
+    text-shadow: 2px 20px 10px rgba(0, 0, 0, 0.3);
 }
 
 .hero p {
@@ -127,4 +129,49 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+}
+
+.menu-items {
+    display: flex; /* Display the Coffee and Pastry divs side by side */
+    justify-content: space-between; /* Add space between the items */
+}
+
+.Coffee, .Pastry {
+    width: 48%; /* Adjust the width so both divs fit side by side */
+    padding: 20px;
+    color: #4c3c32;
+    box-sizing: border-box;
+}
+
+.Coffee {
+    background-color: #f4e3d2; /* Coffee section background color */
+}
+
+.Pastry {
+    background-color: #fce5cd; /* Pastry section background color */
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0;
+}
+
+li {
+    font-weight: bold; /* Bold the item names */
+    margin-top: 10px;
+}
+
+p {
+    margin: 5px 0 15px 0; /* Adjust margins for spacing between items */
+    font-size: 14px; /* Set a smaller font size for descriptions */
+}
+
+.menu h2 {
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 20px 10px rgba(0, 0, 0, 0.3);
 }
