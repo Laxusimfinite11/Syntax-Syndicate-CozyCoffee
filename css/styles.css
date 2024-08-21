@@ -6,19 +6,19 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../img/Cafe BG.jpg');
-    background-size: cover; /* Makes sure the image covers the entire background */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-position: center; /* Centers the image */
+    background-image: url("../img/Cafe BG.jpg");
+    background-size: cover;
     color: #4c3c32;
-}   
-
+}
 
 header {
-    background-color: #DAA06D;
-    background-color: ;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #111111;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     padding: 20px;
+}
+
+.TitleHead {
+    
 }
 
 nav {
@@ -34,12 +34,12 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 nav a {
     text-decoration: none;
-    color: #4c3c32;
+    color: #ffffff;
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -52,6 +52,7 @@ nav a:hover {
     text-align: center;
     padding: 150px 0;
     background-image: url('hero-bg.jpg');
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 1);
     background-size: cover;
     color: white;
 }
@@ -59,17 +60,16 @@ nav a:hover {
 .hero h1 {
     font-size: 70px;
     margin-bottom: 20px;
-    text-shadow: 2px 20px 10px rgba(0, 0, 0, 0.3);
 }
 
 .hero p {
-    font-size: 18px;
+    font-size: 40px;
     margin-bottom: 40px;
 }
 
 .cta-button {
     display: inline-block;
-    padding: 10px 22px;
+    padding: 10px 20px;
     background-color: #4c3c32;
     color: white;
     text-decoration: none;
@@ -82,7 +82,9 @@ nav a:hover {
 }
 
 .menu {
-    padding: px 0;
+    background-image: url("../img/Our Menu BG.png");
+    background-size: cover;
+    padding: 100px 0;
     text-align: center;
 }
 
@@ -111,7 +113,7 @@ nav a:hover {
 .contact {
     padding: 100px 0;
     text-align: center;
-    background-color: #4c3c32;
+    background-color: #000000;
     color: white;
 }
 
@@ -130,53 +132,4 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
-}
-
-.menu-items {
-    display: flex; /* Display the Coffee and Pastry divs side by side */
-    justify-content: space-between; /* Add space between the items */
-}
-
-.Coffee, .Pastry {
-    width: 48%; /* Adjust the width so both divs fit side by side */
-    padding: 20px;
-    color: #4c3c32;
-    box-sizing: border-box;
-}
-
-.Coffee {
-    background-color: #f4e3d2; /* Coffee section background color */
-}
-
-.Pastry {
-    background-color: #fce5cd; /* Pastry section background color */
-}
-
-h3 {
-    margin-bottom: 10px;
-}
-
-ul {
-    list-style-type: none; /* Remove default list style */
-    padding: 0;
-}
-
-li {
-    font-weight: bold; /* Bold the item names */
-    margin-top: 10px;
-}
-
-p {
-    margin: 5px 0 15px 0; /* Adjust margins for spacing between items */
-    font-size: 14px; /* Set a smaller font size for descriptions */
-}
-
-.menu h2 {
-    font-size: 70px;
-    color: white;
-    text-shadow: 2px 20px 10px rgba(0, 0, 0, 0.3);
-}
-
-.hero p {
-    font-size: 40px;
 }
