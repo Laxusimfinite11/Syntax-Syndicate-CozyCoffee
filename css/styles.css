@@ -251,6 +251,7 @@ footer {
     background-color: white;
     padding: 5px;
 }
+
 .footer-links ul {
     list-style: none;
     padding: 0;
@@ -259,7 +260,8 @@ footer {
 }
 
 .footer-links ul li {
-    margin: 0 10px; /* Adds spacing between links */
+    margin: 0 10px;
+    font-size: 25px;
 }
 
 .footer-links ul li a {
@@ -267,3 +269,18 @@ footer {
     color: inherit;
 }
 
+.social-media {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-media a {
+    transition: transform 0.5s ease;
+}
+
+.social-media img:hover {
+    transform: scale(1.5);
+}
