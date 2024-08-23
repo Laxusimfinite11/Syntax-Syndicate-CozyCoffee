@@ -4,6 +4,10 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-image: url("../img/Cafe BG Vertical.jpg");
@@ -247,3 +251,19 @@ footer {
     background-color: white;
     padding: 5px;
 }
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links ul li {
+    margin: 0 10px; /* Adds spacing between links */
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
