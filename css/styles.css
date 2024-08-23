@@ -4,6 +4,10 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-image: url("../img/Cafe BG Vertical.jpg");
@@ -157,10 +161,49 @@ nav a:hover {
     color: white;
 }
 
- .MenuStart {
-    background-color: black;
-    padding: 10px;
+.MenuStart {
+    width: 400px; 
+    height: 500px; 
+    padding: 20px; 
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 150px;
+    list-style: none;
+    margin: 0 50px;
+}
+
+.MenuStart img {
+    max-width: 70%;
+    max-width: 60%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 20px;
+}
+
+.CursiveMenu {
+    font-size: 2.5rem;
+    font-family: 'Lucida Handwriting', cursive;
+    color: #000000;
+}
+
+.position {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MenuChoose {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SolidMenu {
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', sans-serif;
+    color: #000000;
 }
 
 .about {
@@ -207,4 +250,37 @@ footer {
 .div1 {
     background-color: white;
     padding: 5px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links ul li {
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-media {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-media a {
+    transition: transform 0.5s ease;
+}
+
+.social-media img:hover {
+    transform: scale(1.5);
 }
