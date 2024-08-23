@@ -157,10 +157,35 @@ nav a:hover {
     color: white;
 }
 
- .MenuStart {
-    background-color: black;
-    padding: 10px;
+.MenuStart {
+    width: 400px; 
+    height: 500px; 
+    padding: 20px; 
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 150px;
+    list-style: none;
+    margin: 0 50px;
+}
+
+.MenuStart img {
+    max-width: 70%;
+    max-width: 60%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 20px;
+}
+
+.MenuChoose {
     display: flex;
+    justify-content: space-between;
+}
+
+.MenuChoose li {
+    font-size: 2.5rem;
 }
 
 .about {
