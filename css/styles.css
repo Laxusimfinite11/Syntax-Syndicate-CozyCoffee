@@ -6,15 +6,20 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url("../img/Cafe BG.jpg");
+    background-image: url("../img/Cafe BG Vertical.jpg");
     background-size: cover;
     color: #4c3c32;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 header {
     background-color: #111111;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     padding: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .TitleHead {
@@ -49,7 +54,13 @@ nav {
     justify-content: space-between;
     position: absolute;
     right: 35rem;
+    transition: transform 0.5s ease;
 }
+
+.icon img:hover{
+    transform: scale(1.2);
+}
+
 
 .icon img  {
     width: 50px;
@@ -69,6 +80,11 @@ nav {
     border-radius: 10%;
     position: relative;
     left: 9px;
+    transition: transform 0.5s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.2);
 }
 
 nav ul {
@@ -85,7 +101,9 @@ nav a {
 }
 
 nav a:hover {
-    color: #7e685b;
+    color: #535353;
+    padding: 2px;
+    
 }
 
 .hero {
@@ -114,7 +132,7 @@ nav a:hover {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4c3c32;
+    background-color: #171616;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -122,19 +140,27 @@ nav a:hover {
 }
 
 .cta-button:hover {
-    background-color: #7e685b;
+    background-color: #373737;
 }
 
 .menu {
-    background-color: white;
+
     background-size: cover;
-    padding: 100px 0;
+    padding: 20rem;
+    border-radius: 8px;
     text-align: center;
 }
 
 .menu h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    color: white;
+}
+
+ .MenuStart {
+    background-color: black;
+    padding: 10px;
+    display: flex;
 }
 
 .about {
@@ -176,4 +202,9 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+}
+
+.div1 {
+    background-color: white;
+    padding: 5px;
 }
