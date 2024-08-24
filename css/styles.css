@@ -229,13 +229,14 @@ nav a:hover {
 
 }
 
-.MenuStart h2 {
+.MenuStart h2 a {
     position: relative;
     color: rgb(91, 91, 91);
     font-size: 20px;
     font-family: 'Gill Sans', sans-serif;
     font-weight: lighter;
     bottom: 16.5rem;
+    text-decoration: none;
 }
 
 .about {
@@ -313,6 +314,14 @@ footer {
     color: rgb(0, 0, 0);
 }
 
+.div1 h3 {
+    text-align: center;
+    color: black;
+    font-size: 8rem;
+    font-weight: lighter;
+
+}
+
 .footer-links ul {
     list-style: none;
     display: flex;
@@ -354,3 +363,54 @@ footer {
 .social-media img:hover {
     transform: scale(1.5);
 }
+
+.Popular {
+    background-color: white;
+    height: auto;
+}
+
+.break {
+    position: relative;
+    border: 1px solid #000;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.BoxItems {
+    text-align: center;
+}
+
+.CoffeeSection .BoxItems img, .PastrySection .BoxItems img {
+    width: 18rem;
+    height: auto;
+    border: 6px solid white;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+}
+
+.BoxItems h5 {
+    position: relative;
+    bottom: 15px;
+    color: black;
+    align-items: center;
+    font-size: 25px;
+}
+
+.ItemsList h4 {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+.CoffeeSection {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.PastrySection {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
