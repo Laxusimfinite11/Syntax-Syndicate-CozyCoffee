@@ -1,3 +1,5 @@
+
+
 /* Reset some default styles */
 body, h1, h3, ul, li {
     margin: 0;
@@ -72,14 +74,6 @@ nav {
 
 .icon img:hover{
     transform: scale(1.2);
-}
-
-
-.choices {
-    position:relative;
-    left: 6rem;
-    top: 30px;
-    font-size: 1.5rem;
 }
 
 .logo img {

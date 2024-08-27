@@ -1,5 +1,101 @@
+@font-face {
+    font-family: 'LovelyCoffee';
+    src: url('../fonts/LovelyCoffee-jEVeO.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
 body, h1, h3, ul, li{
     margin: 0px;
     padding: 0px;
+}
+
+.TitleHeadMenu {
+    position: absolute;
+    left: 8rem;
+    font-size: 45px;
+    color: White;
+}
+
+.TitleCafeMenu {
+    position: absolute;
+    left: 25rem;
+    top: 2.5rem;
+    font-size: 42px;
+    font-weight: lighter;
+    color: white;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.NavigationMenu{
+    position: relative;
+    right: 6.2rem;
+    font-size: 2rem;
+}
+
+.iconMenu {
+    display: flex;
+    position: absolute;
+    right: 27rem;
+}
+
+.iconMenu img {
+    width: 50px;
+    height: auto;
+    transition: transform 0.5s ease;
+    gap: 20px;
+}
+
+.iconMenu img:hover{
+    transform: scale(1.2);
+}
+
+.logoMenu img {
+    max-width: 80px;
+    border-radius: 10%;
+    position: relative;
+    left: 9px;
+    transition: transform 0.5s ease;
+}
+
+.logoMenu img:hover {
+    transform: scale(1.5);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #535353;
+    padding: 2px;
+    
+}
+
+.Phrase {
+    color: white;
+    position: absolute;
+    left: 58rem;
+    top: 5px;
+    font-family: 'LovelyCoffee';
+    font-weight: lighter;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px rgba(200, 200, 200, 0.8);
+
 }
 
