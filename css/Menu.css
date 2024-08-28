@@ -161,7 +161,8 @@ nav a:hover {
 .displayformat {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1px;
+    gap: 30px;
+    padding: 0 30rem;
 }
 
 .itemsformat {
@@ -174,6 +175,7 @@ nav a:hover {
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
 }
 
 .itemsformat h1 {
@@ -208,5 +210,3 @@ nav a:hover {
     margin: 0;
     padding: 0;
 }
-
-
