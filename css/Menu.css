@@ -90,12 +90,123 @@ nav a:hover {
 .Phrase {
     color: white;
     position: absolute;
-    left: 58rem;
-    top: 5px;
+    left: 46rem;
+    top: 6rem;
     font-family: 'LovelyCoffee';
     font-weight: lighter;
-    font-size: 100px;
+    font-size: 150px;
     text-shadow: 2px 2px 5px rgba(200, 200, 200, 0.8);
 
 }
+
+.qoute {
+    background-color: #111111;
+    max-width: 100%;
+    height: 20vh;
+}
+
+.MenuCategory {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+    position: relative;
+    top: 10rem;
+    left: -6rem;
+}
+
+.MenuCategory h1 {
+    color: white;
+}
+
+.MenuCategory h1 a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.MenuCategory h1 a:hover {
+    color: #535353;
+}
+
+.menuitems {
+    background-color: white;
+    width: 100%;
+    height: 315vh;
+}
+
+.menuitems h1, .menuitems h2 {
+    color: black;
+    text-align: center;
+    display: block;
+    
+}
+
+.menuitems h1 {
+    font-size: 80px;
+    font-weight: normal;
+}
+
+.menuitems h2 {
+    font-weight: lighter;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.menuitems hr {
+    border: 1px solid #000;
+    width: 5%;
+    margin: 20px auto;
+}
+
+.displayformat {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+}
+
+.itemsformat {
+    align-items: center;
+    margin: 0 auto;
+}
+
+.itemsformat img {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.itemsformat h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.itemsformat hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.itemsformat p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: lighter;
+    font-size: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.itemsformat h2 {
+    letter-spacing: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.itemsformat h1, .itemsformat h2 .itemsformat p {
+    margin: 0;
+    padding: 0;
+}
+
 
