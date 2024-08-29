@@ -33,13 +33,19 @@ The **Syntax Syndicate Cafe** website project is focused on creating a visually 
 **About Page** - The About page of the Syntax Syndicate Cafe website shares the cafe's story, including the vision and background of the founders, Lexus Taladro and Juan Carlos, and highlights the cafe's mission and values.
 
 ## About
-**Name:** Lexus Taladro  
-**Email:** laxustaladro@gmail.com
+**Lexus Taladro**  
+**laxustaladro@gmail.com**
+> [Facebook Account](https://www.facebook.com/lexus.taladro)  
+> [Github Account](https://github.com/Laxusimfinite11)
 <p align="center">
 <img src="img/Lexus.png" width="150" style="border-radius: 50%;">
   
 ***
-**Name:** Juan Carlos Gonzalez  
-**Email:** jaevel04@gmail.com
+Juan Carlos Gonzalez  
+jaevel04@gmail.com
+> [Facebook Account]()  
+> [Github Account]()
 <p align="center">  
 <img src="img/Juan Carlos.png" width="150" style="border-radius: 50%;">
+
+dsds
