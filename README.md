@@ -15,13 +15,13 @@ The **Syntax Syndicate Cafe** website project is focused on creating a visually 
   - **Hover Effect**: Text changes color when hovered over.
 
 - **Interactive Images**:
-  - **Hover Effect**: Images enlarge slightly when hovered over.
+  - **Hover Effect**: Image Logo enlarge slightly when hovered over.
 
 - **Social Media Integration**:
   - **Social Media Icons**: Links to Facebook, Instagram, and Twitter pages.
 
 ## Screen Captures
-![Home Img](<Readme IMG/Menu Page.png>)
+![Home Img](<Readme IMG/Home Page.png>)
 **Home Page** - The Home page of the Syntax Syndicate Cafe website offers a warm introduction with a brief overview of the cafe, featuring interactive text and images that engage visitors.
 ***
 
