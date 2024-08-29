@@ -48,3 +48,4 @@ jaevel04@gmail.com
 <p align="center">  
 <img src="img/Juan Carlos.png" width="150" style="border-radius: 50%;">
 
+d
