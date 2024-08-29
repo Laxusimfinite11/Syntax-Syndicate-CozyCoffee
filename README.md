@@ -39,7 +39,7 @@ The **Syntax Syndicate Cafe** website project is focused on creating a visually 
 <img src="img/Lexus.png" width="150" style="border-radius: 50%;">
   
 ***
-**Name:**   
-**Email:**
+**Name:** Juan Carlos Gonzalez  
+**Email:** jaevel04@gmail.com
 <p align="center">  
-<img src="hereplease" width="150" style="border-radius: 50%;">
+<img src="img/Juan Carlos.png" width="150" style="border-radius: 50%;">
