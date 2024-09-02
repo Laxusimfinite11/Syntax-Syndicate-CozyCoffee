@@ -32,6 +32,9 @@ The **Syntax Syndicate Cafe** website project is focused on creating a visually 
 ![About Img](<Readme IMG/About Page.png>)
 **About Page** - The About page of the Syntax Syndicate Cafe website shares the cafe's story, including the vision and background of the founders, Lexus Taladro and Juan Carlos, and highlights the cafe's mission and values.
 
+![Contact Img](<Readme IMG/Contact Page.png>)
+**Contact Page** - The Contact page of Syntax Syndicate Cafe provides a form for inquiries and reservations, plus the cafe's address, phone number, and social media links, with a Google Maps embed for easy location access.
+
 ## About
 **Lexus Taladro**  
 **laxustaladro@gmail.com**
