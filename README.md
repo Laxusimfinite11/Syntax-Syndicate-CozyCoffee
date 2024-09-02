@@ -43,7 +43,7 @@ The **Syntax Syndicate Cafe** website project is focused on creating a visually 
 ***
 Juan Carlos Gonzalez  
 jaevel04@gmail.com
-> [Facebook Account]()  
-> [Github Account]()
+> [Facebook Account](https://www.facebook.com/juancarlos.gonzalez.3363334)  
+> [Github Account](https://github.com/thorbucks)
 <p align="center">  
 <img src="img/Juan Carlos.png" width="150" style="border-radius: 50%;">
