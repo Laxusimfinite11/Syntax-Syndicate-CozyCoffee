@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'LovelyCoffee';
+    src: url('../fonts/LovelyCoffee-jEVeO.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body, h1, h3, ul, li{
+    margin: 0px;
+    padding: 0px;
+}
+
+.TitleHeadMenu {
+    position: absolute;
+    left: 8rem;
+    font-size: 45px;
+    color: White;
+}
+
+.TitleCafeMenu {
+    position: absolute;
+    left: 25rem;
+    top: 2.5rem;
+    font-size: 42px;
+    font-weight: lighter;
+    color: white;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.NavigationMenu{
+    position: relative;
+    right: 6.2rem;
+    font-size: 2rem;
+}
+
+.iconMenu {
+    display: flex;
+    position: absolute;
+    right: 27rem;
+}
+
+.iconMenu img {
+    width: 50px;
+    height: auto;
+    transition: transform 0.5s ease;
+    gap: 20px;
+}
+
+.iconMenu img:hover{
+    transform: scale(1.2);
+}
+
+.logoMenu img {
+    max-width: 80px;
+    border-radius: 10%;
+    position: relative;
+    left: 9px;
+    transition: transform 0.5s ease;
+}
+
+.logoMenu img:hover {
+    transform: scale(1.5);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #535353;
+    padding: 2px;
+    
+}
+
+.Phrase {
+    color: white;
+    position: absolute;
+    left: 46rem;
+    top: 6rem;
+    font-family: 'LovelyCoffee';
+    font-weight: lighter;
+    font-size: 150px;
+    text-shadow: 2px 2px 5px rgba(200, 200, 200, 0.8);
+
+}
+
+.qoute {
+    background-color: #111111;
+    max-width: 100%;
+    height: 20vh;
+}
+
+.MenuCategory {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+    position: relative;
+    top: 10rem;
+    left: -6rem;
+}
+
+.MenuCategory h1 {
+    color: white;
+}
+
+.MenuCategory h1 a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.MenuCategory h1 a:hover {
+    color: #535353;
+}
+
+.menuitems {
+    background-color: white;
+    width: 100%;
+    height: 322vh;
+}
+
+.menuitems h1, .menuitems h2 {
+    color: black;
+    text-align: center;
+    display: block;
+    
+}
+
+.menuitems h1 {
+    font-size: 80px;
+    font-weight: normal;
+}
+
+.menuitems h2 {
+    font-weight: lighter;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.menuitems hr {
+    border: 1px solid #000;
+    width: 5%;
+    margin: 20px auto;
+}
+
+.displayformat {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 0 30rem;
+}
+
+.itemsformat {
+    align-items: center;
+    margin: 0 auto;
+}
+
+.itemsformat img {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+}
+
+.itemsformat h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.itemsformat hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.itemsformat p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: lighter;
+    font-size: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.itemsformat h2 {
+    letter-spacing: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.itemsformat h1, .itemsformat h2 .itemsformat p {
+    margin: 0;
+    padding: 0;
+}
