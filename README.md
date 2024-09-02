@@ -41,10 +41,10 @@ The **Syntax Syndicate Cafe** website project is focused on creating a visually 
 <img src="img/Lexus.png" width="150" style="border-radius: 50%;">
   
 ***
-Juan Carlos Gonzalez  
-jaevel04@gmail.com
-> [Facebook Account]()  
-> [Github Account]()
+**Juan Carlos Gonzalez**
+**jaevel04@gmail.com**
+> [Facebook Account](https://www.facebook.com/juancarlos.gonzalez.3363334)  
+> [Github Account](https://github.com/thorbucks)
 <p align="center">  
 <img src="img/Juan Carlos.png" width="150" style="border-radius: 50%;">
 
