@@ -35,7 +35,61 @@
     </header>
 
     <section class="Details">
-        
+        <div class="BoxCon">
+            <h1>Contact Information</h1>
+                <div class="sectionadd" >
+                    <img src="img/Contact Icon/Address.png" alt="CafeAdd">
+                    <h2>Cafe Address:</h2>
+                    <h3>PONCEDELION ST., LIBIS ROAD, BRGY. SAN PEDRO, PUERTO PRINCESA CITY, PALAWAN, PHILIPPINES</h3>
+                </div>
+
+                <div class="sectionadd" >
+                    <img src="img/Contact Icon/PhoneNumber.png" alt="PhoneNum">
+                    <h2>Contac Number:</h2>
+                    <h3>0923-324-424</h3>
+                </div>
+                    
+                <div class="sectionadd" >
+                    <img src="img/Contact Icon/Email.png" alt="Email">
+                    <h2>Email:</h2>
+                    <h3><a href="">SyntaxSyndicateCafe@gmail.com</a></h3>
+                </div>
+                
+                <h6>Contact Form</h2>
+                <div class="contact-form">
+                    <form action="submit_form.php" method="post">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required>
+            
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label for="type">Message Type:</label>
+                        <select id="type" name="type">
+                            <option value="inquiry">Inquiry</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="reservation">Reservation Request</option>
+                        </select>
+            
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+            
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="map">
+                    <h1>Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1012.4608989861114!2d118.75220006957225!3d9.75879832109526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b563fa38c4ae31%3A0xd3f7db07cd1629eb!2sOk%20na%20Boks!5e1!3m2!1sen!2sph!4v1725283144747!5m2!1sen!2sph" 
+                        width="600" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+        </div>
     </section>
 
     <section id="contact" class="contact">
