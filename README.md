@@ -38,15 +38,22 @@ The **Syntax Syndicate Cafe** website project is focused on creating a visually 
 ## About
 **Lexus Taladro**  
 **laxustaladro@gmail.com**
-> [Facebook Account](https://www.facebook.com/lexus.taladro)  
->  [Github Account](https://github.com/Laxusimfinite11)
+
+<a href="https://www.facebook.com/lexus.taladro"><img src="img/icons/facebook.png" width="60" style="border-radius: 10%;"><a>
+<a href="https://github.com/Laxusimfinite11"><img src="img/icons/Github.png" width="60" style="border-radius: 10%;"><a>
+
 <p align="center">
 <img src="img/Lexus.png" width="150" style="border-radius: 50%;">
-  
+</p>
+
+
+
 ***
 Juan Carlos Gonzalez  
-jaevel04@gmail.com
-> [Facebook Account](https://www.facebook.com/juancarlos.gonzalez.3363334)  
-> [Github Account](https://github.com/thorbucks)
+**jaevel04@gmail.com**
+
+<a href="https://www.facebook.com/juancarlos.gonzalez.3363334"><img src="img/icons/facebook.png" width="60" style="border-radius: 10%;"><a>
+<a href="https://github.com/thorbucks"><img src="img/icons/Github.png" width="60" style="border-radius: 10%;"><a>
 <p align="center">  
 <img src="img/Juan Carlos.png" width="150" style="border-radius: 50%;">
+</p>
